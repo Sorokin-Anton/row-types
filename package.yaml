@@ -1,0 +1,41 @@
+name:                row-types
+
+library:
+  source-dirs: src
+
+default-extensions:
+  AllowAmbiguousTypes,
+  ConstraintKinds,
+  DataKinds,
+  EmptyCase,
+  EmptyDataDecls,
+  FlexibleContexts,
+  FlexibleInstances,
+  GADTs,
+  InstanceSigs,
+  KindSignatures,
+  LambdaCase,
+  MultiParamTypeClasses,
+  OverloadedLabels,
+  PatternGuards,
+  PatternSynonyms,
+  PolyKinds,
+  RankNTypes,
+  ScopedTypeVariables,
+  TypeApplications,
+  TypeFamilies,
+  TypeOperators,
+  TupleSections,
+  ViewPatterns,
+  UndecidableInstances
+
+dependencies:
+- base
+- constraints
+- deepseq
+- generic-lens
+- hashable
+- profunctors
+- text
+- unordered-containers
+- aeson
